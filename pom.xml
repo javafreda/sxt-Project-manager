@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.sxt</groupId>
+    <artifactId>Project_parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.sxt</groupId>
+  <artifactId>Project_manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>Project_manager_pojo</module>
+  	<module>Project_manager_service</module>
+  	<module>Project_manager_dao</module>
+  	<module>Project_manager_web</module>
+  </modules>
+    <dependencies>
+  	<!-- 添加对Project_common的依赖 -->
+  	<dependency>
+	  	<groupId>com.sxt</groupId>
+	    <artifactId>Project_common</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
+</project>
